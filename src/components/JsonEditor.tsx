@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Schema } from "./jsonInterfaces";
 import MonacoEditor from "@monaco-editor/react";
 
 interface JsonEditorProps {
