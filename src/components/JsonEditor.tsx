@@ -3,7 +3,7 @@ import MonacoEditor from "@monaco-editor/react";
 
 interface JsonEditorProps {
   jsonSchema: object;
-  onChange: (schema: object) => void;
+  onChange: React.Dispatch<React.SetStateAction<Schema>>;
 }
 
 const JsonEditor = ({ jsonSchema, onChange }: JsonEditorProps) => {
