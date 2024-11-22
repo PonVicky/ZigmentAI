@@ -1,4 +1,3 @@
-import React from "react";
 import { Schema } from "./jsonInterfaces";
 
 interface FormPreviewProps {
