@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import MonacoEditor from "@monaco-editor/react";
 import { Schema } from "./jsonInterfaces";
 
